@@ -1,0 +1,57 @@
+[     275ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/api/v1/auth/user:0
+[   53864ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/api/v1/auth/user:0
+[  118463ms] Error: Minified React error #185; visit https://react.dev/errors/185 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at t5 (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:30162)
+    at t8 (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:29734)
+    at l$ (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:44022)
+    at http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:43900
+    at http://localhost:3000/_next/static/chunks/774-613208c1ec0d0814.js:1:116890
+    at Set.forEach (<anonymous>)
+    at n (http://localhost:3000/_next/static/chunks/774-613208c1ec0d0814.js:1:116879)
+    at updateSectionCompletion (http://localhost:3000/_next/static/chunks/app/dashboard/builder/page-7e89fcf4be7e882b.js:1:75175)
+    at onMediaCompletionChange (http://localhost:3000/_next/static/chunks/app/dashboard/builder/page-7e89fcf4be7e882b.js:1:79824)
+    at http://localhost:3000/_next/static/chunks/app/dashboard/builder/page-7e89fcf4be7e882b.js:1:35791
+    at ob (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:80049)
+    at oG (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95807)
+    at oX (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95691)
+    at oG (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95844)
+    at oX (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95691)
+    at oG (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95844)
+    at oX (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95691)
+    at oG (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95844)
+    at oX (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95691)
+    at oG (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95787)
+    at oX (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95691)
+    at oG (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95844)
+    at oX (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95691)
+    at oG (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95844)
+    at oX (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95691)
+    at oG (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95787)
+    at oX (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95691)
+    at oG (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95844)
+    at oX (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95691)
+    at oG (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95787)
+    at oX (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95691)
+    at oG (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95787)
+    at oX (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95691)
+    at oG (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95787)
+    at oX (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95691)
+    at oG (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95844)
+    at oX (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95691)
+    at oG (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95844)
+    at oX (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95691)
+    at oG (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95787)
+    at oX (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95691)
+    at oG (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95844)
+    at oX (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95691)
+    at oG (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95787)
+    at oX (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95691)
+    at oG (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95787)
+    at oX (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95691)
+    at oG (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95787)
+    at oX (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95691)
+    at oG (http://localhost:3000/_next/static/chunks/4bd1b696-7616b912efb5adf6.js:1:95787)
+[  118659ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/api/v1/auth/user:0
+[  269062ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/api/v1/payments/usage:0
+[  296443ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/api/v1/auth/user:0
+[  316302ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:8000/api/v1/auth/user:0

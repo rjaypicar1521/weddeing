@@ -1,0 +1,4 @@
+interface:
+  display_name: "SAD Creator"
+  short_description: "Draft and refine software architecture docs"
+  default_prompt: "Use $sad-creator to draft a Software Architecture Document for this project."

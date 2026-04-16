@@ -1,0 +1,3 @@
+interface:
+  display_name: "Workflow Develop"
+  short_description: "Run a gated SAD->RBSP->TDD phase pipeline with strict no-any constraints"

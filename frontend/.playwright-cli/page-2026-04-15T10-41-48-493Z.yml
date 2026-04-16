@@ -1,0 +1,123 @@
+- generic [active] [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e19] [cursor=pointer]:
+    - img [ref=e20]
+  - alert [ref=e23]: Wedding Online
+  - generic [ref=e24]:
+    - banner [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - link "Wedding Online" [ref=e29] [cursor=pointer]:
+              - /url: /dashboard
+            - generic [ref=e30]:
+              - paragraph [ref=e31]: Couple Dashboard
+              - paragraph [ref=e32]: Track invitation progress, guest momentum, and launch readiness across desktop, tablet, and mobile screens.
+          - generic [ref=e35]: Pro verified
+        - navigation [ref=e37]:
+          - link "Overview" [ref=e38] [cursor=pointer]:
+            - /url: /dashboard
+          - link "RSVPs" [ref=e39] [cursor=pointer]:
+            - /url: /dashboard/guests
+          - link "Guests" [ref=e40] [cursor=pointer]:
+            - /url: /dashboard/guests-management
+          - link "Builder" [ref=e41] [cursor=pointer]:
+            - /url: /dashboard/builder
+          - link "Billing" [ref=e42] [cursor=pointer]:
+            - /url: /dashboard/billing
+          - link "Domain" [ref=e43] [cursor=pointer]:
+            - /url: /dashboard/domain
+          - link "Upgrade" [ref=e44] [cursor=pointer]:
+            - /url: /dashboard/upgrade
+    - main [ref=e45]:
+      - generic [ref=e47]:
+        - generic [ref=e49]:
+          - generic [ref=e50]: Wedding Command Center
+          - generic [ref=e51]:
+            - heading "Keep your invitation polished, published, and guest-ready." [level=1] [ref=e52]
+            - paragraph [ref=e53]: Monitor launch status, watch RSVP movement, and keep your guest experience aligned from one place.
+          - generic [ref=e54]:
+            - paragraph [ref=e55]: "Invitation status: Published"
+            - paragraph [ref=e56]: "Guest usage: 0/25"
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - heading "Readiness Snapshot" [level=2] [ref=e60]
+              - generic [ref=e61]: Published
+            - generic [ref=e63]:
+              - paragraph [ref=e64]: 40%
+              - paragraph [ref=e65]: 0 invited
+          - generic [ref=e68]:
+            - generic [ref=e69]:
+              - paragraph [ref=e70]: Guest code
+              - paragraph [ref=e71]: RF5A8G
+            - generic [ref=e72]:
+              - paragraph [ref=e73]: Plan
+              - paragraph [ref=e74]: Premium
+            - generic [ref=e75]:
+              - paragraph [ref=e76]: RSVPs
+              - paragraph [ref=e77]: 0 received
+            - generic [ref=e78]:
+              - paragraph [ref=e79]: Attending
+              - paragraph [ref=e80]: 0 guests confirmed
+      - generic [ref=e86]:
+        - generic [ref=e87]:
+          - heading "Invitation Status" [level=2] [ref=e89]
+          - generic [ref=e90]:
+            - paragraph [ref=e91]: Published
+            - paragraph [ref=e92]: Guests can access the invitation
+        - generic [ref=e93]:
+          - heading "Guest Code" [level=2] [ref=e95]
+          - generic [ref=e96]:
+            - paragraph [ref=e97]: RF5A8G
+            - paragraph [ref=e98]: Share this with invited guests
+        - generic [ref=e99]:
+          - heading "RSVPs" [level=2] [ref=e101]
+          - generic [ref=e102]:
+            - paragraph [ref=e103]: "0"
+            - paragraph [ref=e104]: Responses collected so far
+        - generic [ref=e105]:
+          - heading "Attending" [level=2] [ref=e107]
+          - generic [ref=e108]:
+            - paragraph [ref=e109]: "0"
+            - paragraph [ref=e110]: Confirmed seats for the day
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - heading "Next Best Actions" [level=2] [ref=e114]
+          - generic [ref=e115]:
+            - link "Continue Builder Refine your story, schedule, theme, and final invitation details. Open" [ref=e116] [cursor=pointer]:
+              - /url: /dashboard/builder
+              - generic [ref=e117]:
+                - generic [ref=e118]:
+                  - paragraph [ref=e119]: Continue Builder
+                  - paragraph [ref=e120]: Refine your story, schedule, theme, and final invitation details.
+                - button "Open" [ref=e121]
+            - link "Preview Invitation Review the guest-facing experience before sending it out. Open" [ref=e122] [cursor=pointer]:
+              - /url: /dashboard/builder/preview
+              - generic [ref=e123]:
+                - generic [ref=e124]:
+                  - paragraph [ref=e125]: Preview Invitation
+                  - paragraph [ref=e126]: Review the guest-facing experience before sending it out.
+                - button "Open" [ref=e127]
+            - link "Manage Guests Import guests, monitor capacity, and keep the invite list clean. Open" [ref=e128] [cursor=pointer]:
+              - /url: /dashboard/guests-management
+              - generic [ref=e129]:
+                - generic [ref=e130]:
+                  - paragraph [ref=e131]: Manage Guests
+                  - paragraph [ref=e132]: Import guests, monitor capacity, and keep the invite list clean.
+                - button "Open" [ref=e133]
+            - link "Review RSVPs Track attendance, meal choices, and response momentum. Open" [ref=e134] [cursor=pointer]:
+              - /url: /dashboard/guests
+              - generic [ref=e135]:
+                - generic [ref=e136]:
+                  - paragraph [ref=e137]: Review RSVPs
+                  - paragraph [ref=e138]: Track attendance, meal choices, and response momentum.
+                - button "Open" [ref=e139]
+        - generic [ref=e140]:
+          - heading "Guest Capacity" [level=2] [ref=e142]
+          - generic [ref=e143]:
+            - generic [ref=e144]:
+              - paragraph [ref=e145]: 0/25
+              - paragraph [ref=e146]: Guests used for your current plan
+            - generic [ref=e148]:
+              - paragraph [ref=e149]: 0% of capacity is already allocated.
+              - paragraph [ref=e150]: Use guest management to keep imports and reminders under control.

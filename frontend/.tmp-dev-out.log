@@ -1,0 +1,40 @@
+
+> wedding-online-frontend@0.1.0 dev
+> next dev -p 3000
+
+   ▲ Next.js 15.2.0
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.0.79:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 3.5s
+ ○ Compiling /i/[slug] ...
+ ✓ Compiled /i/[slug] in 9.8s (1991 modules)
+ GET / 200 in 10775ms
+ GET /i/alex-rivera-jamie-santos-mc29vx 200 in 12254ms
+ ○ Compiling /icon.svg ...
+ ✓ Compiled /icon.svg in 3.1s (1062 modules)
+ GET /icon.svg?41a84e4683ee1068 200 in 2643ms
+ GET /icon.svg?41a84e4683ee1068 200 in 3612ms
+ GET /i/alex-rivera-jamie-santos-mc29vx 200 in 530ms
+ GET /i/alex-rivera-jamie-santos-mc29vx 200 in 184ms
+ GET /icon.svg?41a84e4683ee1068 200 in 234ms
+ GET /i/alex-rivera-jamie-santos-mc29vx 200 in 83ms
+ GET /icon.svg?41a84e4683ee1068 200 in 218ms
+ ○ Compiling /i/[slug]/view ...
+ ✓ Compiled /i/[slug]/view in 3.4s (2116 modules)
+ GET / 200 in 662ms
+ ✓ Compiled in 702ms (1005 modules)
+ GET / 200 in 46ms
+ GET /i/alex-rivera-jamie-santos-mc29vx/view 200 in 4773ms
+ GET /i/alex-rivera-jamie-santos-mc29vx/view 200 in 40ms
+ GET /i/alex-rivera-jamie-santos-mc29vx/view 200 in 36ms
+ ✓ Compiled /icon.svg in 328ms (1127 modules)
+ GET /icon.svg?41a84e4683ee1068 200 in 657ms
+ GET /i/alex-rivera-jamie-santos-mc29vx/view 200 in 903ms
+ GET /i/alex-rivera-jamie-santos-mc29vx 200 in 53ms
+ GET /i/alex-rivera-jamie-santos-mc29vx/view 200 in 66ms
+ GET /icon.svg?41a84e4683ee1068 200 in 220ms
+ GET /icon.svg?41a84e4683ee1068 200 in 272ms
+ GET /icon.svg?41a84e4683ee1068 200 in 230ms

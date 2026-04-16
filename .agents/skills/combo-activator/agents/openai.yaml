@@ -1,0 +1,4 @@
+interface:
+  display_name: "Combo Activator"
+  short_description: "Session-gated MCP combo workflow router"
+  default_prompt: "Use $combo-activator to run a menu-driven combo pipeline with strict phase gates."

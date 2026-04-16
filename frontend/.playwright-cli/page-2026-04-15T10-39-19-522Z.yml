@@ -1,0 +1,27 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - link "Wedding Online" [ref=e7] [cursor=pointer]:
+            - /url: /dashboard
+          - generic [ref=e8]:
+            - paragraph [ref=e9]: Couple Dashboard
+            - paragraph [ref=e10]: Track invitation progress, guest momentum, and launch readiness across desktop, tablet, and mobile screens.
+        - generic [ref=e13]: Loading...
+      - navigation [ref=e15]:
+        - link "Overview" [ref=e16] [cursor=pointer]:
+          - /url: /dashboard
+        - link "RSVPs" [ref=e17] [cursor=pointer]:
+          - /url: /dashboard/guests
+        - link "Guests" [ref=e18] [cursor=pointer]:
+          - /url: /dashboard/guests-management
+        - link "Builder" [ref=e19] [cursor=pointer]:
+          - /url: /dashboard/builder
+        - link "Billing" [ref=e20] [cursor=pointer]:
+          - /url: /dashboard/billing
+        - link "Domain" [ref=e21] [cursor=pointer]:
+          - /url: /dashboard/domain
+        - link "Upgrade" [ref=e22] [cursor=pointer]:
+          - /url: /dashboard/upgrade
+  - main [ref=e23]

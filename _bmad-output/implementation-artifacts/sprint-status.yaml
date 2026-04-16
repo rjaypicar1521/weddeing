@@ -1,0 +1,113 @@
+generated: 2026-03-29
+project: WEDDING INV AND PLANNER
+project_key: WED
+tracking_system: file-system
+story_location: c:\Users\Asus\Desktop\WEDDING\_bmad-output\implementation-artifacts\stories
+
+# STATUS DEFINITIONS:
+# epic: backlog | in-progress | done
+# story: backlog | ready-for-dev | in-progress | review | done | blocked
+
+development_status:
+  epic-1: in-progress
+  E-01-S01: done
+  E-01-S02: done
+  E-01-S03: done
+  E-01-S04: done
+  E-01-S05: blocked
+  E-01-S06: done
+  epic-1-retrospective: optional
+  epic-2: in-progress
+  E-02-S01: done
+  E-02-S02: done
+  E-02-S03: backlog
+  E-02-S04: backlog
+  E-02-S05: backlog
+  E-02-S06: backlog
+  epic-2-retrospective: optional
+  epic-3: in-progress
+  E-03-S01: in-progress
+  E-03-S02: in-progress
+  E-03-S03: in-progress
+  E-03-S04: in-progress
+  E-03-S05: in-progress
+  E-03-S06: in-progress
+  E-03-S07: in-progress
+  E-03-S08: in-progress
+  E-03-S09: in-progress
+  E-03-S10: in-progress
+  E-04-S01: in-progress
+  E-04-S02: in-progress
+  E-04-S03: in-progress
+  E-04-S04: in-progress
+  E-04-S05: in-progress
+  E-04-S06: in-progress
+  E-04-S07: in-progress
+  E-05-S01: in-progress
+  E-05-S02: in-progress
+  E-05-S03: in-progress
+  E-05-S04: in-progress
+  E-05-S05: in-progress
+  E-06-S01: in-progress
+  E-06-S02: in-progress
+  E-06-S03: in-progress
+  E-06-S04: in-progress
+  E-06-S05: in-progress
+  E-07-S01: in-progress
+  E-07-S02: in-progress
+  E-07-S03: in-progress
+  E-07-S04: in-progress
+  E-07-S05: in-progress
+  E-08-S01: in-progress
+  E-08-S02: in-progress
+  E-08-S03: in-progress
+  E-09-S01: in-progress
+  epic-3-retrospective: optional
+
+notes:
+  - "Baseline accepted: E-01-S01 completed in frontend/ (Next.js 15 scaffold present)."
+  - "Baseline accepted: E-01-S02 completed in backend/ (Laravel 11 scaffold present)."
+  - "E-01-S03 completed: domain migrations added and migration rollback/reapply validated."
+  - "E-01-S04 completed: Vercel deployment config and frontend env docs added."
+  - "E-01-S06 completed: shared Sanctum-aware API client and auth helper wiring added."
+  - "E-01-S05 blocked by B-01 backend hosting decision (Railway vs Render vs Forge)."
+  - "B-01 resolved: backend deployment platform selected and backend deployed."
+  - "E-02-S01 completed: couple registration endpoint + validation + verification notification flow + frontend registration page."
+  - "E-02-S02 completed: email verification verify/resend endpoints, verified middleware, and verify-email frontend flow."
+  - "E-03-S01 started: builder shell and sidebar implementation in progress."
+  - "Frontend build check currently fails in this environment with spawn EPERM; lint and typecheck pass."
+  - "E-03-S02 started: Wedding Details section implementation in progress."
+  - "E-03-S03 started: Theme & Design section implementation in progress."
+  - "E-03-S04 started: Media upload section implementation in progress."
+  - "E-03-S05 started: Love Story section implementation in progress."
+  - "E-03-S06 started: Entourage section implementation in progress."
+  - "E-03-S07 started: Gift & QR section implementation in progress."
+  - "E-03-S08 started: Guest Access section implementation in progress."
+  - "E-03-S09 started: Wedding Program section implementation in progress."
+  - "E-03-S10 started: Publish & Preview section implementation in progress."
+  - "E-04-S01 started: guest code validation and entry screen implementation in progress."
+  - "E-04-S02 started: cinematic intro animation implementation in progress."
+  - "E-04-S03 started: invitation page core sections implementation in progress."
+  - "E-04-S04 started: guest RSVP multi-step form and API implementation in progress."
+  - "E-04-S05 started: boarding pass confirmation implementation in progress."
+  - "E-04-S06 started: wishes wall implementation in progress."
+  - "E-04-S07 started: mobile optimization implementation in progress."
+  - "E-05-S01 started: couple RSVP management list/stats implementation in progress."
+  - "E-05-S02 started: RSVP stats dashboard enhancement in progress."
+  - "E-05-S03 started: CSV export implementation in progress."
+  - "E-05-S04 started: manual RSVP management implementation in progress."
+  - "E-05-S05 started: RSVP email notification workflow implementation in progress."
+  - "E-06-S01 started: admin dashboard overview implementation in progress."
+  - "E-06-S02 started: admin reminder email endpoints, queue flow, and dashboard reminder UI implementation in progress."
+  - "E-06-S03 started: guest management APIs (list/delete/bulk invite/status) and guests-management dashboard page implementation in progress."
+  - "E-06-S04 started: invite analytics endpoint and analytics dashboard with charts implementation in progress."
+  - "E-06-S05 started: activity log API and activity feed dashboard implementation in progress."
+  - "E-07-S01 started: Stripe payments and freemium guest limit implementation in progress."
+  - "E-07-S02 started: guest limit middleware, usage endpoint, and frontend upgrade-block UX implementation in progress."
+  - "E-07-S03 started: custom domain setup API, DNS verification flow, and domain dashboard UI implementation in progress."
+  - "E-07-S04 started: Stripe customer portal session and billing invoice history implementation in progress."
+  - "E-07-S05 started: billing usage analytics endpoint and trend chart implementation in progress."
+  - "E-08-S01 started: public landing pages (/ /features /pricing /login) with SEO and motion implementation in progress."
+  - "E-08-S02 started: expanded public /features page with alternating feature sections, demo block, and marketing CTAs."
+  - "E-08-S03 started: public /pricing page redesign with plans, FAQ, comparison table, and checkout CTA wiring."
+  - "E-09-S01 started: builder wedding themes (6 presets) with auto-generated color/font tokens and theme picker UI."

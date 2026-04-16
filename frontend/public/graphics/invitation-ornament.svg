@@ -1,0 +1,25 @@
+<svg width="1200" height="1200" viewBox="0 0 1200 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1200" rx="80" fill="#F9F1EA"/>
+  <circle cx="600" cy="600" r="420" fill="url(#paint0_radial)" opacity="0.9"/>
+  <path d="M281 396C281 219.822 423.822 77 600 77C776.178 77 919 219.822 919 396V921H281V396Z" stroke="#D8B9A9" stroke-width="18"/>
+  <path d="M347 397C347 257.824 460.824 144 600 144C739.176 144 853 257.824 853 397V854H347V397Z" stroke="#EAD8CE" stroke-width="8" stroke-dasharray="8 16"/>
+  <path d="M405 442C405 334.857 492.857 247 600 247C707.143 247 795 334.857 795 442V774H405V442Z" fill="#FFF9F4" stroke="#D8B9A9" stroke-width="6"/>
+  <path d="M600 290V740" stroke="#D8B9A9" stroke-width="4" stroke-dasharray="10 14"/>
+  <circle cx="600" cy="430" r="96" fill="#F5E4D8" stroke="#D8B9A9" stroke-width="6"/>
+  <path d="M542 420C553.2 385.2 577 368 600 368C623 368 646.8 385.2 658 420" stroke="#8A5A44" stroke-width="6" stroke-linecap="round"/>
+  <path d="M548 492C570.667 465.333 587.333 452 598 452C608.667 452 627.333 465.333 654 492" stroke="#8A5A44" stroke-width="6" stroke-linecap="round"/>
+  <path d="M290 952C356.667 876 434.667 838 524 838C583.333 838 639.333 855 692 889C744.667 923 802 944 864 952" stroke="#D8B9A9" stroke-width="8" stroke-linecap="round"/>
+  <path d="M335 995C403 935 475.667 905 553 905C630.333 905 707 935 783 995" stroke="#EAD8CE" stroke-width="4" stroke-linecap="round"/>
+  <g opacity="0.9">
+    <path d="M242 614C267.333 590 292.667 578 318 578C343.333 578 366.667 590 388 614" stroke="#C89B88" stroke-width="6" stroke-linecap="round"/>
+    <path d="M388 614C366.667 638 343.333 650 318 650C292.667 650 267.333 638 242 614Z" stroke="#C89B88" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M812 614C837.333 590 862.667 578 888 578C913.333 578 936.667 590 958 614" stroke="#C89B88" stroke-width="6" stroke-linecap="round"/>
+    <path d="M958 614C936.667 638 913.333 650 888 650C862.667 650 837.333 638 812 614Z" stroke="#C89B88" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+  <defs>
+    <radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 420) rotate(90) scale(620)">
+      <stop stop-color="#FFFDFB"/>
+      <stop offset="1" stop-color="#F2DDD1"/>
+    </radialGradient>
+  </defs>
+</svg>

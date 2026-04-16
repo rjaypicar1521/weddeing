@@ -1,0 +1,152 @@
+
+> wedding-online-frontend@0.1.0 dev
+> next dev -p 3000
+
+   ▲ Next.js 15.2.0
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.0.79:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1761ms
+ ○ Compiling /login ...
+ ✓ Compiled /login in 2.7s (1181 modules)
+ GET /login 200 in 3286ms
+ GET /login 200 in 34ms
+ ✓ Compiled /icon.svg in 275ms (657 modules)
+ GET /icon.svg?41a84e4683ee1068 200 in 559ms
+ ○ Compiling /api/v1/[...path] ...
+ ✓ Compiled /api/v1/[...path] in 881ms (1203 modules)
+ GET /login 200 in 130ms
+ GET /login 200 in 133ms
+ POST /api/v1/auth/login 200 in 1964ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 970ms (1278 modules)
+ GET /dashboard 200 in 1093ms
+ GET /api/v1/invitation 200 in 327ms
+ GET /api/v1/payments/usage 200 in 579ms
+ GET /api/v1/rsvps/stats 200 in 462ms
+ ○ Compiling /dashboard/builder ...
+ ✓ Compiled /dashboard/builder in 1426ms (1402 modules)
+ GET /dashboard/builder 200 in 1567ms
+ GET /api/v1/templates 200 in 247ms
+ GET /dashboard/builder 200 in 26ms
+ GET /api/v1/media 200 in 477ms
+ GET /api/v1/love-story 200 in 800ms
+ GET /api/v1/entourage 200 in 950ms
+ GET /api/v1/invitation 200 in 1184ms
+ GET /api/v1/invitation 200 in 234ms
+ GET /api/v1/invitation 200 in 239ms
+ ○ Compiling /dashboard/guests-management ...
+ ✓ Compiled /dashboard/guests-management in 676ms (1413 modules)
+ GET /dashboard/guests-management 200 in 777ms
+ GET /api/v1/guests?page=1 200 in 286ms
+ GET /api/v1/payments/usage 200 in 518ms
+ GET /api/v1/guest-groups 200 in 753ms
+ ○ Compiling /dashboard/guests ...
+ ✓ Compiled /dashboard/guests in 1828ms (2220 modules)
+ GET /dashboard/guests 200 in 1919ms
+ GET /dashboard/guests 200 in 227ms
+ GET /api/v1/rsvps?page=1&status=all 200 in 548ms
+ GET /dashboard 200 in 21ms
+ GET /dashboard/guests 200 in 21ms
+ GET /api/v1/invitation 200 in 295ms
+ GET /api/v1/rsvps?page=1&status=all 200 in 562ms
+ GET /api/v1/rsvps/stats 200 in 766ms
+ GET /dashboard/guests-management 200 in 26ms
+ GET /api/v1/guests?page=1 200 in 259ms
+ GET /api/v1/payments/usage 200 in 493ms
+ GET /api/v1/guest-groups 200 in 693ms
+ GET /dashboard/builder 200 in 26ms
+ GET /api/v1/templates 200 in 248ms
+ GET /api/v1/media 200 in 461ms
+ GET /api/v1/love-story 200 in 671ms
+ GET /api/v1/entourage 200 in 867ms
+ GET /api/v1/invitation 200 in 1068ms
+ GET /api/v1/invitation 200 in 234ms
+ GET /api/v1/invitation 200 in 222ms
+ ○ Compiling /dashboard/billing ...
+ ✓ Compiled /dashboard/billing in 4.4s (3175 modules)
+ GET /dashboard/billing 200 in 4527ms
+ GET /dashboard/billing 200 in 29ms
+ GET /dashboard/billing 200 in 18ms
+ GET /api/v1/payments/status 200 in 255ms
+ GET /api/v1/payments/invoice-history 200 in 511ms
+ GET /api/v1/payments/usage-analytics 200 in 751ms
+ GET /dashboard 200 in 44ms
+ GET /api/v1/invitation 200 in 293ms
+ GET /api/v1/payments/usage 200 in 514ms
+ GET /api/v1/rsvps/stats 200 in 445ms
+ ○ Compiling /i/[slug]/view ...
+ ✓ Compiled /i/[slug]/view in 1879ms (3147 modules)
+ GET /login 200 in 360ms
+ GET /dashboard 200 in 471ms
+ ✓ Compiled in 492ms (1503 modules)
+ GET /dashboard 200 in 48ms
+ GET /login 200 in 48ms
+ GET /i/alex-rivera-jamie-santos-mc29vx/view 200 in 2908ms
+ ○ Compiling /api/v1/[...path] ...
+ ✓ Compiled /api/v1/[...path] in 840ms (1663 modules)
+ GET /api/v1/guest/invitation 200 in 1307ms
+ GET /api/v1/guest/rsvp 200 in 269ms
+ GET /api/v1/guest/wishes?page=1&per_page=10 200 in 524ms
+ ✓ Compiled /api/v1/[...path] in 1210ms (3140 modules)
+ ✓ Compiled in 0ms (1656 modules)
+ GET /login 200 in 876ms
+ GET /i/alex-rivera-jamie-santos-mc29vx/view 200 in 874ms
+ GET /api/v1/guest/invitation 200 in 1649ms
+ ✓ Compiled in 893ms (3159 modules)
+ ✓ Compiled in 1ms (1656 modules)
+ ✓ Compiled in 0ms (1656 modules)
+ ✓ Compiled in 1ms (1656 modules)
+ GET /api/v1/guest/wishes?page=1&per_page=10 200 in 1389ms
+ GET /login 200 in 1171ms
+ GET /i/alex-rivera-jamie-santos-mc29vx/view 200 in 1167ms
+ GET /api/v1/guest/invitation 200 in 1591ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1611ms (3148 modules)
+ GET / 200 in 2420ms
+ GET /login 200 in 764ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1644ms (3138 modules)
+ GET /_next/static/css/app/layout.css?v=1776134556751 404 in 1132ms
+ GET /_next/static/css/app/layout.css?v=1776134557349 404 in 943ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 1133ms
+ GET /_next/static/chunks/main-app.js?v=1776134556751 404 in 1139ms
+ GET /login 200 in 236ms
+ GET /_next/static/css/app/layout.css?v=1776134558476 404 in 25ms
+ GET / 200 in 187ms
+ GET /_next/static/css/app/layout.css?v=1776135140416 404 in 43ms
+ GET /_next/static/chunks/main-app.js?v=1776135140416 404 in 82ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 82ms
+ ✓ Compiled in 513ms (1505 modules)
+ GET /login 200 in 25ms
+ GET /login 200 in 188ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 809ms (3132 modules)
+ GET /_next/static/chunks/app/login/page.js 404 in 676ms
+ GET /_next/static/chunks/main-app.js?v=1776138006715 404 in 1046ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 679ms
+ ✓ Compiled /icon.svg in 459ms (1654 modules)
+ ✓ Compiled in 724ms (1505 modules)
+ GET /login 200 in 223ms
+ ✓ Compiled in 332ms (1505 modules)
+ GET /login 200 in 21ms
+ ○ Compiling / ...
+ ✓ Compiled / in 523ms (1643 modules)
+ GET / 200 in 895ms
+ ○ Compiling /i/[slug] ...
+ ✓ Compiled /i/[slug] in 1428ms (3155 modules)
+ GET /login 200 in 118ms
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 2.2s (3472 modules)
+ GET /login 200 in 1223ms
+ GET /i/demo 500 in 5328ms
+ GET /login 200 in 656ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 854ms (3484 modules)
+ GET /i/demo 404 in 1348ms
+ GET /login 500 in 2793ms
+ GET /login 500 in 124ms
+ GET /_next/static/webpack/e4894e1e7956963f.webpack.hot-update.json 404 in 84ms
+ GET /login 500 in 61ms

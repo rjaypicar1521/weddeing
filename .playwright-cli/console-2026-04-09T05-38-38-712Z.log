@@ -1,0 +1,28 @@
+[     137ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:241
+[    1878ms] [LOG] [Fast Refresh] done in 1741ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:73
+[    2579ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:24833
+[    4276ms] [ERROR] Maximum update depth exceeded. This can happen when a component calls setState inside useEffect, but useEffect either doesn't have a dependency array, or one of the dependencies changes on every render. @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/globals/intercept-console-error.js:51
+[    4328ms] Error: Maximum update depth exceeded. This can happen when a component repeatedly calls setState inside componentWillUpdate or componentDidUpdate. React limits the number of nested updates to prevent infinite loops.
+    at getRootForUpdatedFiber (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:3852:11)
+    at enqueueConcurrentRenderForLane (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:3816:14)
+    at forceStoreRerender (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:5673:18)
+    at eval (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom-client.development.js:5659:41)
+    at eval (webpack-internal:///(app-pages-browser)/./node_modules/zustand/esm/vanilla.mjs:13:39)
+    at Set.forEach (<anonymous>)
+    at setState (webpack-internal:///(app-pages-browser)/./node_modules/zustand/esm/vanilla.mjs:13:17)
+    at updateSectionCompletion (webpack-internal:///(app-pages-browser)/./src/stores/builderStore.ts:75:13)
+    at onMediaCompletionChange (webpack-internal:///(app-pages-browser)/./src/app/dashboard/builder/page.tsx:504:62)
+    at MediaSection.useEffect (webpack-internal:///(app-pages-browser)/./src/components/builder/sections/MediaSection.tsx:174:13)
+    at renderSection (webpack-internal:///(app-pages-browser)/./src/components/builder/BuilderCanvas.tsx:63:95)
+    at eval (webpack-internal:///(app-pages-browser)/./src/components/builder/BuilderCanvas.tsx:125:31)
+    at Array.map (<anonymous>)
+    at BuilderCanvas (webpack-internal:///(app-pages-browser)/./src/components/builder/BuilderCanvas.tsx:120:81)
+    at BuilderPageContent (webpack-internal:///(app-pages-browser)/./src/app/dashboard/builder/page.tsx:493:96)
+    at BuilderPage (webpack-internal:///(app-pages-browser)/./src/app/dashboard/builder/page.tsx:560:94)
+    at ClientPageRoot (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/client-page.js:42:50)
+[    5650ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:8000/api/v1/auth/user:0
+[    5835ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:8000/api/v1/templates:0
+[    6040ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:8000/api/v1/media:0
+[    6267ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:8000/api/v1/love-story:0
+[    6461ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:8000/api/v1/entourage:0
+[    6653ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:8000/api/v1/invitation:0

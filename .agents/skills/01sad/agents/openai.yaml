@@ -1,0 +1,4 @@
+interface:
+  display_name: "01SAD"
+  short_description: "Phased SAD and TDD orchestration with strict no-any constraints"
+  default_prompt: "Use the 01SAD phased pipeline for new or existing SAD/TDD projects."

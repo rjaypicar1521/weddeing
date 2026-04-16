@@ -1,0 +1,22 @@
+- generic [active] [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e20] [cursor=pointer]:
+    - img [ref=e21]
+  - alert [ref=e14]: Wedding Online
+  - generic [ref=e24]:
+    - banner [ref=e25]:
+      - generic [ref=e26]:
+        - navigation [ref=e27]:
+          - link "Dashboard" [ref=e28] [cursor=pointer]:
+            - /url: /dashboard
+          - link "RSVPs" [ref=e29] [cursor=pointer]:
+            - /url: /dashboard/guests
+          - link "Guests" [ref=e30] [cursor=pointer]:
+            - /url: /dashboard/guests-management
+          - link "Billing" [ref=e31] [cursor=pointer]:
+            - /url: /dashboard/billing
+          - link "Domain" [ref=e32] [cursor=pointer]:
+            - /url: /dashboard/domain
+          - link "Upgrade" [ref=e33] [cursor=pointer]:
+            - /url: /dashboard/upgrade
+        - generic [ref=e34]: Email verification required
+    - main [ref=e35]

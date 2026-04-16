@@ -1,0 +1,32 @@
+- generic [active] [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e19] [cursor=pointer]:
+    - img [ref=e20]
+  - alert [ref=e23]: Wedding Online
+  - generic [ref=e24]:
+    - banner [ref=e25]:
+      - generic [ref=e26]:
+        - navigation [ref=e27]:
+          - link "Dashboard" [ref=e28] [cursor=pointer]:
+            - /url: /dashboard
+          - link "RSVPs" [ref=e29] [cursor=pointer]:
+            - /url: /dashboard/guests
+          - link "Guests" [ref=e30] [cursor=pointer]:
+            - /url: /dashboard/guests-management
+          - link "Billing" [ref=e31] [cursor=pointer]:
+            - /url: /dashboard/billing
+          - link "Domain" [ref=e32] [cursor=pointer]:
+            - /url: /dashboard/domain
+          - link "Upgrade" [ref=e33] [cursor=pointer]:
+            - /url: /dashboard/upgrade
+        - generic [ref=e34]: Free account verified
+    - main [ref=e35]:
+      - generic [ref=e36]:
+        - heading "Welcome, Test User" [level=1] [ref=e37]
+        - paragraph [ref=e38]: Your account is ready, but you have not created your invitation yet.
+      - generic [ref=e39]:
+        - heading "Create Your Invitation" [level=2] [ref=e41]
+        - generic [ref=e42]:
+          - paragraph [ref=e43]: Start with your wedding details, then continue through theme, media, and publish steps.
+          - link "Open Invitation Builder" [ref=e44] [cursor=pointer]:
+            - /url: /dashboard/builder
+            - button "Open Invitation Builder" [ref=e45]

@@ -1,0 +1,325 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - navigation [ref=e5]:
+          - link "Dashboard" [ref=e6] [cursor=pointer]:
+            - /url: /dashboard
+          - link "RSVPs" [ref=e7] [cursor=pointer]:
+            - /url: /dashboard/guests
+          - link "Guests" [ref=e8] [cursor=pointer]:
+            - /url: /dashboard/guests-management
+          - link "Billing" [ref=e9] [cursor=pointer]:
+            - /url: /dashboard/billing
+          - link "Domain" [ref=e10] [cursor=pointer]:
+            - /url: /dashboard/domain
+          - link "Upgrade" [ref=e11] [cursor=pointer]:
+            - /url: /dashboard/upgrade
+        - generic [ref=e12]: Email verification required
+    - main [ref=e13]:
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - heading "Invitation Builder" [level=1] [ref=e16]
+          - paragraph [ref=e17]: Draft your invitation content and keep progress synced.
+        - generic [ref=e18]:
+          - generic [ref=e19]: Auto-save failed. Please try Save Draft.
+          - button "Save Draft" [ref=e384]
+      - alert [ref=e386]:
+        - heading "Draft save issue" [level=5] [ref=e387]
+        - paragraph [ref=e388]: Unable to save right now. Review your connection and try Save Draft again.
+      - generic [ref=e20]:
+        - complementary [ref=e21]:
+          - heading "Invitation Builder" [level=2] [ref=e22]
+          - paragraph [ref=e23]: Build your invitation section by section.
+          - navigation "Builder sections" [ref=e24]:
+            - button "1. Wedding Details complete" [ref=e385]:
+              - generic [ref=e26]:
+                - generic [ref=e27]: "1."
+                - generic [ref=e28]: Wedding Details
+              - generic [ref=e29]: complete
+            - button "2. Theme & Design complete" [ref=e369]:
+              - generic [ref=e31]:
+                - generic [ref=e32]: "2."
+                - generic [ref=e33]: Theme & Design
+              - generic [ref=e34]: complete
+            - button "3. Media incomplete" [ref=e35]:
+              - generic [ref=e36]:
+                - generic [ref=e37]: "3."
+                - generic [ref=e38]: Media
+              - generic [ref=e39]: incomplete
+            - button "4. Love Story incomplete" [ref=e40]:
+              - generic [ref=e41]:
+                - generic [ref=e42]: "4."
+                - generic [ref=e43]: Love Story
+              - generic [ref=e44]: incomplete
+            - button "5. Entourage incomplete" [ref=e45]:
+              - generic [ref=e46]:
+                - generic [ref=e47]: "5."
+                - generic [ref=e48]: Entourage
+              - generic [ref=e49]: incomplete
+            - button "6. Gift & QR incomplete" [ref=e50]:
+              - generic [ref=e51]:
+                - generic [ref=e52]: "6."
+                - generic [ref=e53]: Gift & QR
+              - generic [ref=e54]: incomplete
+            - button "7. Guest Access incomplete" [ref=e55]:
+              - generic [ref=e56]:
+                - generic [ref=e57]: "7."
+                - generic [ref=e58]: Guest Access
+              - generic [ref=e59]: incomplete
+            - button "8. Publish incomplete" [ref=e60]:
+              - generic [ref=e61]:
+                - generic [ref=e62]: "8."
+                - generic [ref=e63]: Publish
+              - generic [ref=e64]: incomplete
+            - button "9. Wedding Program incomplete" [ref=e65]:
+              - generic [ref=e66]:
+                - generic [ref=e67]: "9."
+                - generic [ref=e68]: Wedding Program
+              - generic [ref=e69]: incomplete
+        - generic [ref=e70]:
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - generic [ref=e75]:
+                - heading "Wedding Details" [level=2] [ref=e76]
+                - paragraph [ref=e77]: Fill in core event details. This section is complete when both names, date, and venue are set.
+              - generic [ref=e78]:
+                - generic [ref=e79]:
+                  - generic [ref=e80]:
+                    - text: Partner 1 Name
+                    - textbox "Partner 1 Name" [ref=e81]: John Santos
+                  - generic [ref=e82]:
+                    - text: Partner 2 Name
+                    - textbox "Partner 2 Name" [ref=e83]: Maria Santos
+                  - generic [ref=e84]:
+                    - text: Wedding Date
+                    - textbox "Wedding Date" [ref=e85]: 2026-04-10
+                  - generic [ref=e86]:
+                    - text: Wedding Time
+                    - textbox "Wedding Time" [ref=e87]
+                  - generic [ref=e88]:
+                    - text: Venue Name
+                    - textbox "Venue Name" [ref=e89]: Manila Cathedral
+                  - generic [ref=e90]:
+                    - text: Venue Address
+                    - textbox "Venue Address" [ref=e91]
+                  - generic [ref=e92]:
+                    - text: Dress Code
+                    - textbox "Dress Code" [ref=e93]
+                - generic [ref=e94]:
+                  - paragraph [ref=e95]: Dress Code Colors (max 5)
+                  - generic [ref=e96]:
+                    - textbox "#C4A484" [ref=e97]
+                    - button "Add color" [ref=e98]
+            - generic [ref=e99]:
+              - generic [ref=e100]:
+                - heading "Live Preview" [level=2] [ref=e101]
+                - paragraph [ref=e102]: This preview updates as you type.
+              - generic [ref=e103]:
+                - paragraph [ref=e104]: John Santos & Maria Santos
+                - paragraph [ref=e105]: 4/10/2026
+                - paragraph [ref=e106]: Manila Cathedral
+                - paragraph [ref=e107]: Venue address
+                - paragraph [ref=e109]: "Dress code: Not set"
+          - generic [ref=e112]:
+            - generic [ref=e113]:
+              - generic [ref=e114]:
+                - heading "Theme & Design" [level=2] [ref=e115]
+                - paragraph [ref=e116]: Select a wedding theme to auto-generate colors and font style.
+              - generic [ref=e117]:
+                - generic [ref=e118]:
+                  - 'button "Minimal Gold Selected Clean layout with warm gold accents. Font: Playfair + Inter" [ref=e119]':
+                    - generic [ref=e120]:
+                      - paragraph [ref=e121]: Minimal Gold
+                      - generic [ref=e122]: Selected
+                    - paragraph [ref=e123]: Clean layout with warm gold accents.
+                    - paragraph [ref=e124]: "Font: Playfair + Inter"
+                  - 'button "Bohemian Earthy and artistic styling with soft contrast. Font: Cormorant + Lato" [ref=e129]':
+                    - paragraph [ref=e131]: Bohemian
+                    - paragraph [ref=e132]: Earthy and artistic styling with soft contrast.
+                    - paragraph [ref=e133]: "Font: Cormorant + Lato"
+                  - 'button "Classic Navy Elegant formal tone with navy highlights. Font: Merriweather + Source Sans" [ref=e138]':
+                    - paragraph [ref=e140]: Classic Navy
+                    - paragraph [ref=e141]: Elegant formal tone with navy highlights.
+                    - paragraph [ref=e142]: "Font: Merriweather + Source Sans"
+                  - 'button "Tropical Vibrant celebration with island-inspired colors. Font: Poppins + Nunito" [ref=e147]':
+                    - paragraph [ref=e149]: Tropical
+                    - paragraph [ref=e150]: Vibrant celebration with island-inspired colors.
+                    - paragraph [ref=e151]: "Font: Poppins + Nunito"
+                  - 'button "Vintage Rose Romantic classic look with rose notes. Font: Libre Baskerville + Karla" [ref=e156]':
+                    - paragraph [ref=e158]: Vintage Rose
+                    - paragraph [ref=e159]: Romantic classic look with rose notes.
+                    - paragraph [ref=e160]: "Font: Libre Baskerville + Karla"
+                  - 'button "Modern Black Bold and modern high-contrast presentation. Font: Manrope + Inter" [ref=e165]':
+                    - paragraph [ref=e167]: Modern Black
+                    - paragraph [ref=e168]: Bold and modern high-contrast presentation.
+                    - paragraph [ref=e169]: "Font: Manrope + Inter"
+                - paragraph [ref=e383]: Unable to load templates right now. Please try again.
+                - generic [ref=e175]:
+                  - paragraph [ref=e176]: Accent color override
+                  - textbox "#C9A227" [ref=e179]
+            - generic [ref=e180]:
+              - generic [ref=e181]:
+                - heading "Theme Preview" [level=2] [ref=e182]
+                - paragraph [ref=e183]: Auto-generated color and font tokens from the selected wedding theme.
+              - generic [ref=e185]:
+                - paragraph [ref=e186]: Theme
+                - paragraph [ref=e187]: Minimal Gold
+                - paragraph [ref=e188]: "Font pairing: Playfair + Inter"
+                - paragraph [ref=e189]: "Template: No template selected"
+                - generic [ref=e190]:
+                  - paragraph [ref=e193]: Accent
+                  - paragraph [ref=e196]: Secondary
+                  - paragraph [ref=e199]: Surface
+                  - paragraph [ref=e202]: Text
+          - generic [ref=e206]:
+            - generic [ref=e207]:
+              - heading "Media" [level=2] [ref=e208]
+              - paragraph [ref=e209]: Upload hero, gallery, and configure media links.
+            - generic [ref=e210]:
+              - generic [ref=e212]:
+                - paragraph [ref=e213]: Storage Usage
+                - generic [ref=e214]: 0.0 MB used of 50.0 MB
+              - generic [ref=e216]:
+                - heading "Hero Photo" [level=3] [ref=e217]
+                - generic [ref=e218]:
+                  - button "Choose File" [ref=e219]
+                  - text: Drag and drop hero photo, or click to upload
+              - generic [ref=e220]:
+                - generic [ref=e221]:
+                  - heading "Gallery" [level=3] [ref=e222]
+                  - generic [ref=e223]: 0 / 10 photos
+                - generic [ref=e224]:
+                  - button "Choose File" [ref=e225]
+                  - text: Drag and drop gallery photos, or click to add
+              - generic [ref=e226]:
+                - heading "Prenup Video (YouTube)" [level=3] [ref=e227]
+                - generic [ref=e228]:
+                  - textbox "https://www.youtube.com/watch?v=..." [ref=e229]
+                  - paragraph [ref=e230]: 🔒 Premium only
+              - generic [ref=e231]:
+                - heading "Background Music (YouTube)" [level=3] [ref=e232]
+                - textbox "https://www.youtube.com/watch?v=..." [ref=e234]
+          - generic [ref=e238]:
+            - generic [ref=e239]:
+              - heading "Love Story" [level=2] [ref=e240]
+              - paragraph [ref=e241]: Create up to 10 chapters and reorder them to tell your timeline.
+            - generic [ref=e242]:
+              - alert [ref=e243]:
+                - heading "Recommended" [level=5] [ref=e244]
+                - paragraph [ref=e245]: Add at least one chapter to tell your story.
+              - button "Add Chapter" [ref=e246]
+              - status [ref=e370]
+          - generic [ref=e250]:
+            - generic [ref=e251]:
+              - generic [ref=e252]:
+                - heading "Entourage" [level=2] [ref=e253]
+                - paragraph [ref=e254]: Manage entourage members, roles, and display order.
+              - generic [ref=e255]:
+                - button "Add Member" [ref=e256]
+                - status [ref=e371]
+            - generic [ref=e258]:
+              - generic [ref=e259]:
+                - heading "Preview by Role" [level=2] [ref=e260]
+                - paragraph [ref=e261]: Responsive grouped preview for invitation display.
+              - paragraph [ref=e263]: Add entourage members to see grouped preview.
+          - generic [ref=e266]:
+            - generic [ref=e267]:
+              - generic [ref=e268]:
+                - heading "Gift & QR" [level=2] [ref=e269]
+                - paragraph [ref=e270]: Add up to 3 gift methods and upload QR codes for each.
+              - generic [ref=e271]:
+                - group [ref=e273]:
+                  - 'generic "Gift Method 1: Untitled" [ref=e274] [cursor=pointer]'
+                  - generic [ref=e276]:
+                    - generic [ref=e277]:
+                      - text: Label
+                      - textbox "GCash / Bank Deposit / Maya" [ref=e278]
+                    - generic [ref=e279]:
+                      - text: Account Name
+                      - textbox "Juan Dela Cruz" [ref=e280]
+                    - generic [ref=e281]:
+                      - text: Account Number
+                      - textbox "09123456789" [ref=e282]
+                    - generic [ref=e283]:
+                      - text: QR Code Upload
+                      - generic [ref=e285]:
+                        - button "Choose File" [ref=e286]
+                        - text: Drag and drop QR (JPG/PNG, max 2MB), or click to upload
+                - generic [ref=e287]:
+                  - button "Add Gift Method" [ref=e288]
+                  - button "Save Gift Methods" [ref=e289]
+            - generic [ref=e291]:
+              - heading "Preview" [level=2] [ref=e292]
+              - paragraph [ref=e293]: Guest-facing gift methods preview.
+          - generic [ref=e298]:
+            - generic [ref=e299]:
+              - heading "Guest Access" [level=2] [ref=e300]
+              - paragraph [ref=e301]: Share code and invitation URL with your guests.
+            - generic [ref=e302]:
+              - generic [ref=e303]:
+                - paragraph [ref=e304]: Guest Code
+                - generic [ref=e305]:
+                  - generic [ref=e306]: "------"
+                  - button "Copy code" [ref=e307]
+              - generic [ref=e308]:
+                - paragraph [ref=e309]: Invitation URL
+                - paragraph [ref=e311]: Unavailable until slug exists
+              - generic [ref=e312]:
+                - paragraph [ref=e313]: Regenerate Code
+                - button "Regenerate Code" [disabled]
+              - generic [ref=e314]:
+                - paragraph [ref=e315]: Share
+                - generic [ref=e316]:
+                  - link "WhatsApp" [ref=e317] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Messenger" [ref=e318] [cursor=pointer]:
+                    - /url: "#"
+                  - link "Email" [ref=e319] [cursor=pointer]:
+                    - /url: "#"
+          - generic [ref=e323]:
+            - generic [ref=e324]:
+              - heading "Publish" [level=2] [ref=e325]
+              - paragraph [ref=e326]: Finalize your invitation, preview before sharing, then publish.
+            - generic [ref=e327]:
+              - generic [ref=e328]:
+                - paragraph [ref=e329]: Status
+                - generic [ref=e330]: Draft
+              - generic [ref=e331]:
+                - paragraph [ref=e332]: Pre-publish Checklist
+                - list [ref=e333]:
+                  - listitem [ref=e334]:
+                    - generic [ref=e335]: OK
+                    - generic [ref=e336]: Wedding Details
+                  - listitem [ref=e337]:
+                    - generic [ref=e338]: OK
+                    - generic [ref=e339]: Template Selected
+                  - listitem [ref=e340]:
+                    - generic [ref=e341]: "!"
+                    - generic [ref=e342]: Hero Photo Uploaded
+                  - listitem [ref=e343]:
+                    - generic [ref=e344]: "!"
+                    - generic [ref=e345]: Guest Code Generated
+              - generic [ref=e346]:
+                - button "Preview" [ref=e347]
+                - button "Publish Invitation" [disabled]
+          - generic [ref=e350]:
+            - generic [ref=e351]:
+              - generic [ref=e352]:
+                - heading "Wedding Program" [level=2] [ref=e353]
+                - paragraph [ref=e354]: Build your wedding day schedule. This section is complete when at least one schedule item exists.
+              - group [ref=e357]:
+                - generic "Wedding Day Schedule" [ref=e358] [cursor=pointer]
+                - generic [ref=e359]:
+                  - generic [ref=e360]:
+                    - paragraph [ref=e361]: "Use 24-hour time format (example: 14:00)."
+                    - button "Add Item" [ref=e362]
+                  - status [ref=e372]
+            - generic [ref=e363]:
+              - generic [ref=e364]:
+                - heading "Timeline Preview" [level=2] [ref=e365]
+                - paragraph [ref=e366]: Guest preview timeline for the wedding day schedule.
+              - paragraph [ref=e368]: Add at least one schedule item to complete this section.
+  - button "Open Next.js Dev Tools" [ref=e378] [cursor=pointer]:
+    - img [ref=e379]
+  - alert [ref=e382]

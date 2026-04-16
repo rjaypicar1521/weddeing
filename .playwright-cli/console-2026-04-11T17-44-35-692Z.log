@@ -1,0 +1,19 @@
+[142999586ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/static/chunks/3233-77a7b4f6579556d1.js:0
+[142999588ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/static/chunks/app/dashboard/layout-1f501ae7a2f7fdcc.js:0
+[142999588ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/static/css/edcc6d0d4b3a4178.css:0
+[142999588ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/static/chunks/app/dashboard/page-22a27c34e2954b5e.js:0
+[142999600ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/static/css/edcc6d0d4b3a4178.css:0
+[142999622ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/static/chunks/3233-77a7b4f6579556d1.js:0
+[142999622ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/static/chunks/app/dashboard/layout-1f501ae7a2f7fdcc.js:0
+[142999622ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ http://localhost:3000/_next/static/chunks/app/dashboard/page-22a27c34e2954b5e.js:0
+[142999639ms] ChunkLoadError: Loading chunk 3233 failed.
+(error: http://localhost:3000/_next/static/chunks/3233-77a7b4f6579556d1.js)
+    at r.f.j (http://localhost:3000/_next/static/chunks/webpack-3d0ba4b9dec7b4d5.js:1:2911)
+    at http://localhost:3000/_next/static/chunks/webpack-3d0ba4b9dec7b4d5.js:1:1226
+    at Array.reduce (<anonymous>)
+    at r.e (http://localhost:3000/_next/static/chunks/webpack-3d0ba4b9dec7b4d5.js:1:1205)
+    at i (http://localhost:3000/_next/static/chunks/6587-f7619f2578ec4869.js:2:51799)
+    at http://localhost:3000/_next/static/chunks/6587-f7619f2578ec4869.js:2:64312
+    at http://localhost:3000/_next/static/chunks/6587-f7619f2578ec4869.js:2:64516
+    at t (http://localhost:3000/_next/static/chunks/6587-f7619f2578ec4869.js:2:65768)
+[142999653ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/favicon.ico:0

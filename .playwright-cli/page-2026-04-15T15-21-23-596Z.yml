@@ -1,0 +1,48 @@
+- main [ref=e2]:
+  - generic [ref=e4]:
+    - paragraph [ref=e5]: The Heirloom
+    - button "Guest Access" [disabled]
+  - generic [ref=e7]:
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - paragraph [ref=e13]: Exclusive Guest Portal
+        - generic [ref=e14]:
+          - heading "A Beautiful Day Begins Here" [level=1] [ref=e15]:
+            - text: A Beautiful Day
+            - generic [ref=e16]: Begins Here
+          - paragraph [ref=e17]: Enter your private invitation code to unlock the full wedding details, RSVP flow, venue map, and wishes wall.
+      - generic [ref=e18]:
+        - generic [ref=e19]: Private invitation access
+        - generic [ref=e20]: One-tap RSVP journey
+        - generic [ref=e21]: Wishes wall and live details
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - generic [ref=e24]: "1"
+          - paragraph [ref=e25]: Enter your 6-character invitation code.
+        - generic [ref=e26]:
+          - generic [ref=e27]: "2"
+          - paragraph [ref=e28]: Confirm your guest group access.
+        - generic [ref=e29]:
+          - generic [ref=e30]: "3"
+          - paragraph [ref=e31]: Continue to full invitation and RSVP.
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - heading "Enter Your Access Code" [level=2] [ref=e35]
+        - paragraph [ref=e36]: Enter your invitation code to continue.
+      - generic [ref=e38]:
+        - generic [ref=e39]: Enter your invitation code
+        - button "Invitation code input" [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]: Invitation Code
+            - generic [ref=e43]: 6 left
+          - generic [ref=e44]:
+            - generic [ref=e45]: "*"
+            - generic [ref=e46]: "*"
+            - generic [ref=e47]: "*"
+            - generic [ref=e48]: "*"
+            - generic [ref=e49]: "*"
+            - generic [ref=e50]: "*"
+          - textbox "Enter your invitation code" [active] [ref=e51]:
+            - /placeholder: X7K2P9
+        - paragraph [ref=e52]: "Tip: you can paste the full code directly."
+        - button "Open Invitation" [ref=e53]

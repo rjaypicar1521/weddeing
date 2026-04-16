@@ -1,0 +1,18 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - heading "Login" [level=2] [ref=e5]
+        - paragraph [ref=e6]: Continue to your wedding dashboard.
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - textbox "Email address" [ref=e9]: test@example.com
+          - textbox "Password" [ref=e10]: password
+          - button "Signing in..." [disabled]
+        - paragraph [ref=e12]:
+          - text: New here?
+          - link "Create Wedding" [ref=e13] [cursor=pointer]:
+            - /url: /register
+  - button "Open Next.js Dev Tools" [ref=e20] [cursor=pointer]:
+    - img [ref=e21]
+  - alert [ref=e14]

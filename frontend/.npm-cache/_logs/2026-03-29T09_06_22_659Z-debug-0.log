@@ -1,0 +1,39 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v24.13.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Asus\Desktop\WEDDING\frontend\.npmrc
+5 silly config load:file:C:\Users\Asus\.npmrc
+6 silly config load:file:C:\Users\Asus\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install react-dropzone
+8 verbose argv "install" "react-dropzone" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\Asus\Desktop\WEDDING\frontend\.npm-cache\_logs\2026-03-29T09_06_22_659Z-
+10 verbose logfile C:\Users\Asus\Desktop\WEDDING\frontend\.npm-cache\_logs\2026-03-29T09_06_22_659Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly fetch manifest react-dropzone@*
+15 silly packumentCache full:https://registry.npmjs.org/react-dropzone cache-miss
+16 silly placeDep ROOT react-dropzone@ OK for: wedding-online-frontend@0.1.0 want: *
+17 verbose stack Error: request to https://registry.npmjs.org/react-dropzone failed: cache mode is 'only-if-cached' but no cached response is available.
+17 verbose stack     at cacheFetch (C:\Program Files\nodejs\node_modules\npm\node_modules\make-fetch-happen\lib\cache\index.js:12:13)
+17 verbose stack     at async fetch (C:\Program Files\nodejs\node_modules\npm\node_modules\make-fetch-happen\lib\fetch.js:98:7)
+17 verbose stack     at async RegistryFetcher.packument (C:\Program Files\nodejs\node_modules\npm\node_modules\pacote\lib\registry.js:90:19)
+17 verbose stack     at async RegistryFetcher.manifest (C:\Program Files\nodejs\node_modules\npm\node_modules\pacote\lib\registry.js:128:23)
+17 verbose stack     at async #fetchManifest (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1227:20)
+17 verbose stack     at async #nodeFromEdge (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1065:19)
+17 verbose stack     at async #buildDepStep (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:929:11)
+17 verbose stack     at async Arborist.buildIdealTree (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:182:7)
+17 verbose stack     at async Promise.all (index 1)
+17 verbose stack     at async Arborist.reify (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:114:5)
+18 error code ENOTCACHED
+19 error request to https://registry.npmjs.org/react-dropzone failed: cache mode is 'only-if-cached' but no cached response is available.
+20 silly unfinished npm timer reify 1774775183020
+21 silly unfinished npm timer reify:loadTrees 1774775183022
+22 verbose cwd C:\Users\Asus\Desktop\WEDDING\frontend
+23 verbose os Windows_NT 10.0.26200
+24 verbose node v24.13.0
+25 verbose npm  v11.6.2
+26 verbose exit 1
+27 verbose code 1
+28 error A complete log of this run can be found in: C:\Users\Asus\Desktop\WEDDING\frontend\.npm-cache\_logs\2026-03-29T09_06_22_659Z-debug-0.log

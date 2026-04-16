@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Wedding Online">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f6d2c4" />
+      <stop offset="50%" stop-color="#e8a4a8" />
+      <stop offset="100%" stop-color="#8b3a62" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bg)" />
+  <path
+    d="M17 18l7 28h4.5l3.5-14.5L35.5 46H40l7-28h-5l-4.3 18.2L33.4 18h-3L26 36.2 21.8 18z"
+    fill="#fffaf2"
+  />
+</svg>

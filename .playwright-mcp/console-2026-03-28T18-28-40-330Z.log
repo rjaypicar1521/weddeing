@@ -1,0 +1,257 @@
+[   43134ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[   43386ms] Error: An error occurred in `next/font`.
+
+ReferenceError: module is not defined in ES module scope
+    at file:///C:/Users/Asus/Desktop/WEDDING/frontend/postcss.config.mjs:1:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+    at async findConfig (C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\lib\find-config.js:90:21)
+    at async getPostCssPlugins (C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\build\webpack\config\blocks\css\plugins.js:93:18)
+    at async C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\build\webpack\config\blocks\css\index.js:125:36
+    at async C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\build\webpack\loaders\next-font-loader\index.js:94:33
+    at async Span.traceAsyncFn (C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\trace\trace.js:157:20)
+    at file:///C:/Users/Asus/Desktop/WEDDING/frontend/postcss.config.mjs:1:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+    at async findConfig (C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\lib\find-config.js:90:21)
+    at async getPostCssPlugins (C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\build\webpack\config\blocks\css\plugins.js:93:18)
+    at async C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\build\webpack\config\blocks\css\index.js:125:36
+    at async C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\build\webpack\loaders\next-font-loader\index.js:94:33
+    at async Span.traceAsyncFn (C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\trace\trace.js:157:20)
+    at <unknown> (file:///C:/Users/Asus/Desktop/WEDDING/frontend/postcss.config.mjs:1:1)
+    at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+    at async findConfig (file://C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\lib\find-config.js:90:21)
+    at async getPostCssPlugins (file://C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\build\webpack\config\blocks\css\plugins.js:93:18)
+    at async (file://C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\build\webpack\config\blocks\css\index.js:125:36)
+    at async (file://C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\build\webpack\loaders\next-font-loader\index.js:94:33)
+    at async Span.traceAsyncFn (file://C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\trace\trace.js:157:20)
+    at getNextFontError (file://C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\build\webpack\plugins\wellknown-errors-plugin\parseNextFontError.js:26:20)
+    at getModuleBuildError (file://C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\build\webpack\plugins\wellknown-errors-plugin\webpackModuleError.js:123:63)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async (file://C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\build\webpack\plugins\wellknown-errors-plugin\index.js:29:49)
+    at async (file://C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\build\webpack\plugins\wellknown-errors-plugin\index.js:27:21)
+[   43389ms] [ERROR] src\app\layout.tsx
+An error occurred in `next/font`.
+
+ReferenceError: module is not defined in ES module scope
+    at file:///C:/Users/Asus/Desktop/WEDDING/frontend/postcss.config.mjs:1:1
+    at ModuleJob.run (node:internal/modules/esm/module_job:413:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:660:26)
+    at async findConfig (C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\lib\find-config.js:90:21)
+    at async getPostCssPlugins (C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\build\webpack\config\blocks\css\plugins.js:93:18)
+    at async C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\build\webpack\config\blocks\css\index.js:125:36
+    at async C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\build\webpack\loaders\next-font-loader\index.js:94:33
+    at async Span.traceAsyncFn (C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\trace\trace.js:157:20) @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/client.js:85
+[   43390ms] [WARNING] [HMR] Invalid message: {"action":"isrManifest","data":{}}
+TypeError: Cannot read properties of undefined (reading '__N_SSP')
+    at handleStaticIndicator (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:229:124)
+    at processMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:244:17)
+    at eval (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:70:13)
+    at WebSocket.handleMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:65:17) @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:72
+[   43393ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/favicon.ico:0
+[  141106ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:84
+[  144456ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:84
+[  146039ms] [WARNING] [HMR] Invalid message: {"action":"isrManifest","data":{}}
+TypeError: Cannot read properties of undefined (reading '__N_SSP')
+    at handleStaticIndicator (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:229:124)
+    at processMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:244:17)
+    at eval (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:70:13)
+    at WebSocket.handleMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:65:17) @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:72
+[  148684ms] [ERROR] ./src/app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/globals.css
+Error: Missing field `negated` on ScannerOptions.sources
+Import trace for requested module:
+./src/app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/globals.css
+./src/app/globals.css @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/client.js:85
+[  148684ms] [ERROR] ./src/app/globals.css
+ReferenceError: module is not defined in ES module scope
+-- inner error --
+ReferenceError: module is not defined in ES module scope
+Generated code for C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\build\webpack\loaders\css-loader\src\index.js??ruleSet[1].rules[13].oneOf[10].use[2]!C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\build\webpack\loaders\postcss-loader\src\index.js??ruleSet[1].rules[13].oneOf[10].use[3]!C:\Users\Asus\Desktop\WEDDING\frontend\src\app\globals.css
+
+Import trace for requested module:
+./src/app/globals.css @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/client.js:85
+[  150926ms] [ERROR] ./src/app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/globals.css
+Error: Missing field `negated` on ScannerOptions.sources
+Import trace for requested module:
+./src/app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/globals.css
+./src/app/globals.css @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/client.js:85
+[  150926ms] [ERROR] ./src/app/globals.css
+ReferenceError: module is not defined in ES module scope
+-- inner error --
+ReferenceError: module is not defined in ES module scope
+Generated code for C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\build\webpack\loaders\css-loader\src\index.js??ruleSet[1].rules[13].oneOf[10].use[2]!C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\build\webpack\loaders\postcss-loader\src\index.js??ruleSet[1].rules[13].oneOf[10].use[3]!C:\Users\Asus\Desktop\WEDDING\frontend\src\app\globals.css
+
+Import trace for requested module:
+./src/app/globals.css @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/client.js:85
+[  151351ms] [WARNING] [HMR] Invalid message: {"action":"isrManifest","data":{}}
+TypeError: Cannot read properties of undefined (reading '__N_SSP')
+    at handleStaticIndicator (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:229:124)
+    at processMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:244:17)
+    at eval (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:70:13)
+    at WebSocket.handleMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:65:17) @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:72
+[  151351ms] [WARNING] [HMR] Invalid message: {"action":"isrManifest","data":{}}
+TypeError: Cannot read properties of undefined (reading '__N_SSP')
+    at handleStaticIndicator (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:229:124)
+    at processMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:244:17)
+    at eval (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:70:13)
+    at WebSocket.handleMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:65:17) @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:72
+[  151352ms] [WARNING] [HMR] Invalid message: {"action":"isrManifest","data":{}}
+TypeError: Cannot read properties of undefined (reading '__N_SSP')
+    at handleStaticIndicator (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:229:124)
+    at processMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:244:17)
+    at eval (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:70:13)
+    at WebSocket.handleMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:65:17) @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:72
+[  151353ms] [WARNING] [HMR] Invalid message: {"action":"isrManifest","data":{}}
+TypeError: Cannot read properties of undefined (reading '__N_SSP')
+    at handleStaticIndicator (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:229:124)
+    at processMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:244:17)
+    at eval (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:70:13)
+    at WebSocket.handleMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:65:17) @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:72
+[  151566ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/_next/static/webpack/ba2528f14d800e5a.webpack.hot-update.json:0
+[  151566ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:390
+[  151575ms] [WARNING] [HMR] Invalid message: {"action":"isrManifest","data":{}}
+TypeError: Cannot read properties of undefined (reading '__N_SSP')
+    at handleStaticIndicator (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:229:124)
+    at processMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:244:17)
+    at eval (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:70:13)
+    at WebSocket.handleMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:65:17) @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:72
+[  151576ms] [WARNING] [HMR] Invalid message: {"action":"isrManifest","data":{}}
+TypeError: Cannot read properties of undefined (reading '__N_SSP')
+    at handleStaticIndicator (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:229:124)
+    at processMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:244:17)
+    at eval (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:70:13)
+    at WebSocket.handleMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:65:17) @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:72
+[  151586ms] [WARNING] [HMR] Invalid message: {"action":"isrManifest","data":{}}
+TypeError: Cannot read properties of undefined (reading '__N_SSP')
+    at handleStaticIndicator (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:229:124)
+    at processMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:244:17)
+    at eval (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:70:13)
+    at WebSocket.handleMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:65:17) @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:72
+[  151587ms] [WARNING] [HMR] Invalid message: {"action":"isrManifest","data":{}}
+TypeError: Cannot read properties of undefined (reading '__N_SSP')
+    at handleStaticIndicator (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:229:124)
+    at processMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:244:17)
+    at eval (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:70:13)
+    at WebSocket.handleMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:65:17) @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:72
+[  151597ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[  151763ms] ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js):
+Error: Missing field `negated` on ScannerOptions.sources
+    at Object.Once (C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\@tailwindcss\postcss\dist\index.js:8:4164)
+    at LazyResult.runOnRoot (C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\node_modules\postcss\lib\lazy-result.js:327:23)
+    at LazyResult.runAsync (C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\node_modules\postcss\lib\lazy-result.js:258:26)
+    at LazyResult.async (C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\node_modules\postcss\lib\lazy-result.js:160:30)
+    at LazyResult.then (C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\node_modules\postcss\lib\lazy-result.js:404:17)
+    at Object.Once (C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\@tailwindcss\postcss\dist\index.js:8:4164)
+    at LazyResult.runOnRoot (C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\node_modules\postcss\lib\lazy-result.js:327:23)
+    at LazyResult.runAsync (C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\node_modules\postcss\lib\lazy-result.js:258:26)
+    at LazyResult.async (C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\node_modules\postcss\lib\lazy-result.js:160:30)
+    at LazyResult.then (C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\node_modules\postcss\lib\lazy-result.js:404:17)
+    at Object.Once (file://C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\@tailwindcss\postcss\dist\index.js:8:4164)
+    at LazyResult.runOnRoot (file://C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\node_modules\postcss\lib\lazy-result.js:327:23)
+    at LazyResult.runAsync (file://C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\node_modules\postcss\lib\lazy-result.js:258:26)
+    at LazyResult.async (file://C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\node_modules\postcss\lib\lazy-result.js:160:30)
+    at LazyResult.then (file://C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\node_modules\postcss\lib\lazy-result.js:404:17)
+    at processResult (file://C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\compiled\webpack\bundle5.js:29:407111)
+    at <unknown> (file://C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\compiled\webpack\bundle5.js:29:408906)
+    at <unknown> (file://C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:8645)
+    at <unknown> (file://C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:5828)
+    at r.callback (file://C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\compiled\loader-runner\LoaderRunner.js:1:4039)
+    at <unknown> (file://C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\build\webpack\loaders\postcss-loader\src\index.js:122:37)
+[  151764ms] [ERROR] ./src/app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/globals.css
+Error: Missing field `negated` on ScannerOptions.sources @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/client.js:85
+[  151765ms] [ERROR] ./src/app/globals.css
+ReferenceError: module is not defined in ES module scope
+-- inner error --
+ReferenceError: module is not defined in ES module scope
+Generated code for C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\build\webpack\loaders\css-loader\src\index.js??ruleSet[1].rules[13].oneOf[10].use[2]!C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\build\webpack\loaders\postcss-loader\src\index.js??ruleSet[1].rules[13].oneOf[10].use[3]!C:\Users\Asus\Desktop\WEDDING\frontend\src\app\globals.css @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/client.js:85
+[  151765ms] [WARNING] [HMR] Invalid message: {"action":"isrManifest","data":{}}
+TypeError: Cannot read properties of undefined (reading '__N_SSP')
+    at handleStaticIndicator (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:229:124)
+    at processMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:244:17)
+    at eval (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:70:13)
+    at WebSocket.handleMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:65:17) @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:72
+[  151768ms] [ERROR] ./src/app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/globals.css
+Error: Missing field `negated` on ScannerOptions.sources @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/client.js:85
+[  151768ms] [ERROR] ./src/app/globals.css
+ReferenceError: module is not defined in ES module scope
+-- inner error --
+ReferenceError: module is not defined in ES module scope
+Generated code for C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\build\webpack\loaders\css-loader\src\index.js??ruleSet[1].rules[13].oneOf[10].use[2]!C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\build\webpack\loaders\postcss-loader\src\index.js??ruleSet[1].rules[13].oneOf[10].use[3]!C:\Users\Asus\Desktop\WEDDING\frontend\src\app\globals.css @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/client.js:85
+[  175212ms] [WARNING] [HMR] Invalid message: {"action":"isrManifest","data":{}}
+TypeError: Cannot read properties of undefined (reading '__N_SSP')
+    at handleStaticIndicator (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:229:124)
+    at processMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:244:17)
+    at eval (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:70:13)
+    at WebSocket.handleMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:65:17) @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:72
+[  175385ms] [ERROR] ./src/app/globals.css.webpack[javascript/auto]!=!./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./src/app/globals.css
+Error: Missing field `negated` on ScannerOptions.sources @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/client.js:85
+[  175385ms] [ERROR] ./src/app/globals.css
+ReferenceError: module is not defined in ES module scope
+-- inner error --
+ReferenceError: module is not defined in ES module scope
+Generated code for C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\build\webpack\loaders\css-loader\src\index.js??ruleSet[1].rules[13].oneOf[10].use[2]!C:\Users\Asus\Desktop\WEDDING\frontend\node_modules\next\dist\build\webpack\loaders\postcss-loader\src\index.js??ruleSet[1].rules[13].oneOf[10].use[3]!C:\Users\Asus\Desktop\WEDDING\frontend\src\app\globals.css @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/client.js:85
+[  273892ms] [ERROR] WebSocket connection to 'ws://localhost:3000/_next/webpack-hmr' failed: Error in connection establishment: net::ERR_CONNECTION_REFUSED @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:84
+[  278092ms] [WARNING] [HMR] Invalid message: {"action":"isrManifest","data":{}}
+TypeError: Cannot read properties of undefined (reading '__N_SSP')
+    at handleStaticIndicator (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:229:124)
+    at processMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:244:17)
+    at eval (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:70:13)
+    at WebSocket.handleMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:65:17) @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:72
+[  279753ms] [WARNING] [HMR] Invalid message: {"action":"isrManifest","data":{}}
+TypeError: Cannot read properties of undefined (reading '__N_SSP')
+    at handleStaticIndicator (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:229:124)
+    at processMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:244:17)
+    at eval (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:70:13)
+    at WebSocket.handleMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:65:17) @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:72
+[  279760ms] [WARNING] [HMR] Invalid message: {"action":"isrManifest","data":{}}
+TypeError: Cannot read properties of undefined (reading '__N_SSP')
+    at handleStaticIndicator (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:229:124)
+    at processMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:244:17)
+    at eval (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:70:13)
+    at WebSocket.handleMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:65:17) @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:72
+[  279880ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/_next/static/webpack/ba2528f14d800e5a.webpack.hot-update.json:0
+[  279880ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:392
+[  279898ms] [WARNING] [HMR] Invalid message: {"action":"isrManifest","data":{}}
+TypeError: Cannot read properties of undefined (reading '__N_SSP')
+    at handleStaticIndicator (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:229:124)
+    at processMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:244:17)
+    at eval (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:70:13)
+    at WebSocket.handleMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:65:17) @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:72
+[  279899ms] [WARNING] [HMR] Invalid message: {"action":"isrManifest","data":{}}
+TypeError: Cannot read properties of undefined (reading '__N_SSP')
+    at handleStaticIndicator (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:229:124)
+    at processMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:244:17)
+    at eval (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:70:13)
+    at WebSocket.handleMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:65:17) @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:72
+[  279949ms] [WARNING] [HMR] Invalid message: {"action":"isrManifest","data":{"/_next/static/webpack/ba2528f14d800e5a.webpack.hot-update.json":true}}
+TypeError: Cannot read properties of undefined (reading '__N_SSP')
+    at handleStaticIndicator (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:229:124)
+    at processMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:244:17)
+    at eval (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:70:13)
+    at WebSocket.handleMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:65:17) @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:72
+[  279950ms] [WARNING] [HMR] Invalid message: {"action":"isrManifest","data":{"/_next/static/webpack/ba2528f14d800e5a.webpack.hot-update.json":true}}
+TypeError: Cannot read properties of undefined (reading '__N_SSP')
+    at handleStaticIndicator (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:229:124)
+    at processMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:244:17)
+    at eval (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:70:13)
+    at WebSocket.handleMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:65:17) @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:72
+[  279952ms] [WARNING] [HMR] Invalid message: {"action":"isrManifest","data":{"/_next/static/webpack/ba2528f14d800e5a.webpack.hot-update.json":true}}
+TypeError: Cannot read properties of undefined (reading '__N_SSP')
+    at handleStaticIndicator (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:229:124)
+    at processMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:244:17)
+    at eval (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:70:13)
+    at WebSocket.handleMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:65:17) @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:72
+[  279953ms] [WARNING] [HMR] Invalid message: {"action":"isrManifest","data":{"/_next/static/webpack/ba2528f14d800e5a.webpack.hot-update.json":true}}
+TypeError: Cannot read properties of undefined (reading '__N_SSP')
+    at handleStaticIndicator (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:229:124)
+    at processMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:244:17)
+    at eval (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:70:13)
+    at WebSocket.handleMessage (webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:65:17) @ webpack-internal:///(pages-dir-browser)/./node_modules/next/dist/client/components/react-dev-overlay/pages/hot-reloader-client.js:72

@@ -1,0 +1,4 @@
+interface:
+  display_name: "$SAD Createor"
+  short_description: "Phased SAD and TDD orchestration with strict no-any constraints"
+  default_prompt: "Use the $SAD Createor phased pipeline for new or existing SAD/TDD projects."

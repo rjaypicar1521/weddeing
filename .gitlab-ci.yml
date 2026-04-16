@@ -1,0 +1,113 @@
+workflow:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+    - if: '$CI_PIPELINE_SOURCE == "push"'
+    - if: '$CI_COMMIT_TAG'
+    - when: never
+
+stages:
+  - verify
+  - deploy
+
+default:
+  interruptible: true
+  retry:
+    max: 1
+    when:
+      - runner_system_failure
+      - stuck_or_timeout_failure
+
+variables:
+  NODE_ENV: "test"
+  COMPOSER_ALLOW_SUPERUSER: "1"
+  NPM_CONFIG_CACHE: "$CI_PROJECT_DIR/frontend/.npm"
+  COMPOSER_CACHE_DIR: "$CI_PROJECT_DIR/backend/.composer-cache"
+
+.frontend_changes: &frontend_changes
+  - frontend/**/*
+  - .gitlab-ci.yml
+
+.backend_changes: &backend_changes
+  - backend/**/*
+  - .gitlab-ci.yml
+
+frontend_verify:
+  stage: verify
+  image: node:22-bullseye
+  cache:
+    key:
+      files:
+        - frontend/package-lock.json
+    paths:
+      - frontend/.npm/
+    policy: pull-push
+  script:
+    - cd frontend
+    - npm ci --prefer-offline
+    - npm run lint
+    - npx tsc --noEmit
+    - npm run build
+  artifacts:
+    when: always
+    expire_in: 1 day
+    paths:
+      - frontend/.next/trace
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      changes: *frontend_changes
+    - if: '$CI_PIPELINE_SOURCE == "push"'
+      changes: *frontend_changes
+
+backend_verify:
+  stage: verify
+  image: php:8.3-cli
+  cache:
+    key:
+      files:
+        - backend/composer.lock
+    paths:
+      - backend/vendor/
+      - backend/.composer-cache/
+    policy: pull-push
+  before_script:
+    - apt-get update
+    - apt-get install -y --no-install-recommends git unzip libpng-dev libsqlite3-dev sqlite3 ca-certificates
+    - docker-php-ext-install pdo pdo_sqlite gd
+    - php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+    - php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+    - rm composer-setup.php
+  script:
+    - cd backend
+    - cp .env.example .env
+    - mkdir -p database storage/framework/cache storage/framework/sessions storage/framework/views
+    - touch database/database.sqlite
+    - composer install --no-interaction --no-progress --prefer-dist
+    - php artisan key:generate --force
+    - php artisan migrate --force
+    - php artisan test
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      changes: *backend_changes
+    - if: '$CI_PIPELINE_SOURCE == "push"'
+      changes: *backend_changes
+
+frontend_deploy_production:
+  stage: deploy
+  image: node:22-bullseye
+  needs:
+    - job: frontend_verify
+    - job: backend_verify
+      optional: true
+  script:
+    - cd frontend
+    - npm ci --prefer-offline
+    - npx vercel@latest pull --yes --environment=production --token=$VERCEL_TOKEN
+    - npx vercel@latest build --prod --token=$VERCEL_TOKEN
+    - npx vercel@latest deploy --prebuilt --prod --token=$VERCEL_TOKEN
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main" && $VERCEL_TOKEN && $VERCEL_ORG_ID && $VERCEL_PROJECT_ID'
+      changes: *frontend_changes
+    - when: never
+  variables:
+    VERCEL_ORG_ID: $VERCEL_ORG_ID
+    VERCEL_PROJECT_ID: $VERCEL_PROJECT_ID
